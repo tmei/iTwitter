@@ -48,4 +48,12 @@ static User *_currentUser;
     }
 }
 
+- (NSURL *)profileImageUrl {
+    return [self.data valueOrNilForKeyPath:@"profile_image_url"];
+}
+
+- (NSString *)name {
+    return [self.data valueOrNilForKeyPath:@"name"];
+}
+
 @end

@@ -10,4 +10,8 @@
 
 @interface TweetCell : UITableViewCell
 
+@property (nonatomic, weak) Tweet *tweet;
+
+- (void)setTweet:(Tweet *)tweet;
+
 @end
