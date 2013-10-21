@@ -8,6 +8,7 @@
 
 #import "TweetCell.h"
 #import <UIKit/UIKit.h>
+#import "UIImageView+WebCache.h"
 
 @interface TweetCell ()
 
@@ -40,6 +41,8 @@
     self.textUILabel.text = tweet.text;
     self.nameUILabel.text = tweet.user.name;
     self.createdAtUILabel.text = tweet.createdAt;
+    [self.profileUIImageView setImageWithURL:tweet.user.profileImageUrl];
+    [self.profileUIImageView setNeedsLayout];
 }
 
 @end
