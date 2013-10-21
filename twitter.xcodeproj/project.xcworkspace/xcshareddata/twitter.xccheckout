@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9F8CB480-A18C-4227-9C3C-D57A23458DD7</string>
+	<string>BBD5B159-5813-4CB7-AA9D-832099A5BBD8</string>
 	<key>IDESourceControlProjectName</key>
 	<string>twitter</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/thecodepath/ios_twitter</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>twitter.xcworkspace</string>
+	<string>twitter.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>04B90718-C831-46D8-8D57-0AEBBE24CE40</key>
-		<string>..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/thecodepath/ios_twitter</string>
