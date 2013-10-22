@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040573B018164ADB001E5C00 /* ComposeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040573AE18164ADB001E5C00 /* ComposeVC.m */; };
+		040573B118164ADB001E5C00 /* ComposeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040573AF18164ADB001E5C00 /* ComposeVC.xib */; };
 		042745BC18160A50003D26D6 /* TweetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042745BA18160A50003D26D6 /* TweetVC.m */; };
 		042745BD18160A50003D26D6 /* TweetVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042745BB18160A50003D26D6 /* TweetVC.xib */; };
 		42C55E07181209DE000F9FCF /* TweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CC89C017B0F03E00B6D34B /* TweetCell.xib */; };
@@ -45,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040573AD18164ADB001E5C00 /* ComposeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeVC.h; sourceTree = "<group>"; };
+		040573AE18164ADB001E5C00 /* ComposeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeVC.m; sourceTree = "<group>"; };
+		040573AF18164ADB001E5C00 /* ComposeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeVC.xib; sourceTree = "<group>"; };
 		042745B918160A50003D26D6 /* TweetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetVC.h; sourceTree = "<group>"; };
 		042745BA18160A50003D26D6 /* TweetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetVC.m; sourceTree = "<group>"; };
 		042745BB18160A50003D26D6 /* TweetVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetVC.xib; sourceTree = "<group>"; };
@@ -201,6 +206,9 @@
 				042745B918160A50003D26D6 /* TweetVC.h */,
 				042745BA18160A50003D26D6 /* TweetVC.m */,
 				042745BB18160A50003D26D6 /* TweetVC.xib */,
+				040573AD18164ADB001E5C00 /* ComposeVC.h */,
+				040573AE18164ADB001E5C00 /* ComposeVC.m */,
+				040573AF18164ADB001E5C00 /* ComposeVC.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -332,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042745BD18160A50003D26D6 /* TweetVC.xib in Resources */,
+				040573B118164ADB001E5C00 /* ComposeVC.xib in Resources */,
 				42CC89AB17B0C31900B6D34B /* SignedOutVC.xib in Resources */,
 				42CC893617AF4C6A00B6D34B /* InfoPlist.strings in Resources */,
 				42CC893E17AF4C6B00B6D34B /* Images.xcassets in Resources */,
@@ -394,6 +403,7 @@
 				42CC89B417B0D63C00B6D34B /* RestObject.m in Sources */,
 				42CC895D17AF6FBB00B6D34B /* TimelineVC.m in Sources */,
 				42CC893C17AF4C6B00B6D34B /* AppDelegate.m in Sources */,
+				040573B018164ADB001E5C00 /* ComposeVC.m in Sources */,
 				42CC893817AF4C6B00B6D34B /* main.m in Sources */,
 				042745BC18160A50003D26D6 /* TweetVC.m in Sources */,
 			);

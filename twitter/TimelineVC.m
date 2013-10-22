@@ -9,12 +9,14 @@
 #import "TimelineVC.h"
 #import "TweetCell.h"
 #import "TweetVC.h"
+#import "ComposeVC.h"
 
 @interface TimelineVC ()
 
 @property (nonatomic, strong) NSMutableArray *tweets;
 
 - (void)onSignOutButton;
+- (void)onCompose;
 - (void)reload;
 
 @end
@@ -37,6 +39,7 @@
     [super viewDidLoad];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Sign Out" style:UIBarButtonItemStylePlain target:self action:@selector(onSignOutButton)];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Compose" style:UIBarButtonItemStylePlain target:self action:@selector(onComposeButton)];
     
     UINib *tableViewCellNib = [UINib nibWithNibName:@"TweetCell" bundle:nil];
     [self.tableView registerNib:tableViewCellNib forCellReuseIdentifier:@"TweetCell"];
@@ -143,6 +146,12 @@
 
 - (void)onSignOutButton {
     [User setCurrentUser:nil];
+}
+
+- (void)onComposeButton {
+    ComposeVC *vc = [[ComposeVC alloc] init];
+    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:nvc animated:TRUE completion:nil];
 }
 
 - (void)reload {
