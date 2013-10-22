@@ -47,5 +47,13 @@
 }
 
 - (IBAction)onTweetUIButton:(id)sender {
+    NSString *text = self.textUITextView.text;
+    
+    [[TwitterClient instance] tweet:text success: ^(AFHTTPRequestOperation *operation, id response) {
+        NSLog(@"Success: %@", response);
+        [self dismissViewControllerAnimated:TRUE completion:nil];
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Failure: %@", error);
+    }];
 }
 @end
