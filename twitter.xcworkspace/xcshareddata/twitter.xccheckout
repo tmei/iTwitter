@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9F8CB480-A18C-4227-9C3C-D57A23458DD7</string>
+	<string>CE8C1330-609F-455B-B61C-9D797E0703A3</string>
 	<key>IDESourceControlProjectName</key>
 	<string>twitter</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>04B90718-C831-46D8-8D57-0AEBBE24CE40</key>
-		<string>https://github.com/thecodepath/ios_twitter</string>
+		<key>13166B02-5A73-41A7-ADD3-41912199697B</key>
+		<string>ssh://github.com/tmei/iTwitter.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>twitter.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>04B90718-C831-46D8-8D57-0AEBBE24CE40</key>
+		<key>13166B02-5A73-41A7-ADD3-41912199697B</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/thecodepath/ios_twitter</string>
+	<string>ssh://github.com/tmei/iTwitter.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>04B90718-C831-46D8-8D57-0AEBBE24CE40</string>
+	<string>13166B02-5A73-41A7-ADD3-41912199697B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>04B90718-C831-46D8-8D57-0AEBBE24CE40</string>
+			<string>13166B02-5A73-41A7-ADD3-41912199697B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iTwitter</string>
 		</dict>

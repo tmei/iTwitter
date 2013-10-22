@@ -8,6 +8,7 @@
 
 #import "TimelineVC.h"
 #import "TweetCell.h"
+#import "TweetVC.h"
 
 @interface TimelineVC ()
 
@@ -120,6 +121,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+ 
+    Tweet *tweet = self.tweets[indexPath.row];
+    TweetVC *tweetVC = [[TweetVC alloc] initWithTweet:tweet];
+    [self.navigationController pushViewController:tweetVC animated:TRUE];
 }
 
 /*
