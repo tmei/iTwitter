@@ -6,10 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TweetVC">
             <connections>
-                <outlet property="ReplyUIButton" destination="cSi-9i-oBX" id="U3j-3u-c5F"/>
-                <outlet property="RetweetUIButton" destination="sb5-Qp-VtY" id="7lg-Qb-eYY"/>
                 <outlet property="createdAtUILabel" destination="14T-Go-8Nq" id="Iy9-FC-Qtd"/>
-                <outlet property="favoriteUIButton" destination="feb-yU-ptj" id="eR1-RO-Qxz"/>
                 <outlet property="nameUILabel" destination="pxP-6C-vbf" id="KgB-Fy-JPo"/>
                 <outlet property="profileUIImageView" destination="eId-IC-vO9" id="R50-nw-a2D"/>
                 <outlet property="textUILabel" destination="zH7-NO-JMe" id="v32-Vz-1PG"/>
@@ -50,6 +47,9 @@
                     <state key="normal" title="Favorite">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onFavoriteUIButton:" destination="-1" eventType="touchDown" id="UAm-di-njD"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSi-9i-oBX">
                     <rect key="frame" x="141" y="403" width="39" height="30"/>
@@ -57,6 +57,9 @@
                     <state key="normal" title="Reply">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onReplyUIButton:" destination="-1" eventType="touchDown" id="Zxh-tj-NI2"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sb5-Qp-VtY">
                     <rect key="frame" x="243" y="403" width="57" height="30"/>
@@ -64,6 +67,9 @@
                     <state key="normal" title="Retweet">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onRetweetUIButton:" destination="-1" eventType="touchDown" id="Gp7-hu-5Xw"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

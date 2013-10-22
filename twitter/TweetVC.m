@@ -15,9 +15,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *nameUILabel;
 @property (weak, nonatomic) IBOutlet UILabel *createdAtUILabel;
 @property (weak, nonatomic) IBOutlet UILabel *textUILabel;
-@property (weak, nonatomic) IBOutlet UIButton *favoriteUIButton;
-@property (weak, nonatomic) IBOutlet UIButton *ReplyUIButton;
-@property (weak, nonatomic) IBOutlet UIButton *RetweetUIButton;
+- (IBAction)onFavoriteUIButton:(id)sender;
+- (IBAction)onReplyUIButton:(id)sender;
+- (IBAction)onRetweetUIButton:(id)sender;
+
 
 @property (weak, nonatomic) Tweet *tweet;
 
@@ -59,6 +60,15 @@
     self.createdAtUILabel.text = self.tweet.createdAt;
     [self.profileUIImageView setImageWithURL:self.tweet.user.profileImageUrl];
     [self.profileUIImageView setNeedsLayout];
+}
+
+- (IBAction)onFavoriteUIButton:(id)sender {
+}
+
+- (IBAction)onReplyUIButton:(id)sender {
+}
+
+- (IBAction)onRetweetUIButton:(id)sender {
 }
 
 @end
