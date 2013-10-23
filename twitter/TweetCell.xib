@@ -13,15 +13,15 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="208"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9YS-Hc-Puu">
-                        <rect key="frame" x="0.0" y="0.0" width="80" height="208"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9YS-Hc-Puu">
+                        <rect key="frame" x="7" y="11" width="107" height="95"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="80" id="twl-Wi-uwy"/>
+                            <constraint firstAttribute="width" constant="93" id="twl-Wi-uwy"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmG-mA-8Ki">
-                        <rect key="frame" x="97" y="13" width="203" height="41"/>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmG-mA-8Ki">
+                        <rect key="frame" x="124" y="20" width="165" height="23"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="41" id="qw6-PJ-4bK"/>
@@ -30,14 +30,14 @@
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqb-sc-m6D">
-                        <rect key="frame" x="97" y="79" width="203" height="67"/>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="text" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="165" translatesAutoresizingMaskIntoConstraints="NO" id="nqb-sc-m6D">
+                        <rect key="frame" x="124" y="79" width="165" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0q9-nu-zmM">
-                        <rect key="frame" x="97" y="167" width="203" height="21"/>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0q9-nu-zmM">
+                        <rect key="frame" x="124" y="51" width="165" height="20"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="aLh-J1-SHr"/>
@@ -47,19 +47,17 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="nqb-sc-m6D" firstAttribute="leading" secondItem="0q9-nu-zmM" secondAttribute="leading" id="Cju-dR-J8j"/>
-                    <constraint firstAttribute="bottom" secondItem="9YS-Hc-Puu" secondAttribute="bottom" id="DaQ-jf-scK"/>
-                    <constraint firstAttribute="bottom" secondItem="0q9-nu-zmM" secondAttribute="bottom" constant="20" symbolic="YES" id="HeW-fb-ZdU"/>
-                    <constraint firstItem="RmG-mA-8Ki" firstAttribute="leading" secondItem="9YS-Hc-Puu" secondAttribute="trailing" constant="17" id="KRm-lk-PEr"/>
-                    <constraint firstItem="9YS-Hc-Puu" firstAttribute="leading" secondItem="HVk-pz-8dh" secondAttribute="leading" id="Qoq-J3-KhD"/>
-                    <constraint firstItem="0q9-nu-zmM" firstAttribute="trailing" secondItem="nqb-sc-m6D" secondAttribute="trailing" id="WMy-mz-F3x"/>
-                    <constraint firstItem="9YS-Hc-Puu" firstAttribute="top" secondItem="HVk-pz-8dh" secondAttribute="top" id="b3x-rV-clR"/>
-                    <constraint firstItem="0q9-nu-zmM" firstAttribute="top" secondItem="nqb-sc-m6D" secondAttribute="bottom" constant="21" id="d8w-GR-pXj"/>
-                    <constraint firstItem="nqb-sc-m6D" firstAttribute="top" secondItem="RmG-mA-8Ki" secondAttribute="bottom" constant="25" id="eJm-6z-yvW"/>
+                    <constraint firstItem="nqb-sc-m6D" firstAttribute="top" secondItem="0q9-nu-zmM" secondAttribute="bottom" constant="5" id="4kP-mI-DzH"/>
+                    <constraint firstItem="RmG-mA-8Ki" firstAttribute="leading" secondItem="9YS-Hc-Puu" secondAttribute="trailing" constant="8" id="KRm-lk-PEr"/>
+                    <constraint firstItem="9YS-Hc-Puu" firstAttribute="leading" secondItem="HVk-pz-8dh" secondAttribute="leading" constant="7" id="Qoq-J3-KhD"/>
+                    <constraint firstItem="nqb-sc-m6D" firstAttribute="top" secondItem="0q9-nu-zmM" secondAttribute="bottom" constant="5" id="TFH-WA-hTa"/>
+                    <constraint firstItem="9YS-Hc-Puu" firstAttribute="top" secondItem="HVk-pz-8dh" secondAttribute="top" constant="13" id="b3x-rV-clR"/>
                     <constraint firstItem="nqb-sc-m6D" firstAttribute="leading" secondItem="RmG-mA-8Ki" secondAttribute="leading" id="ejL-Xo-VdC"/>
                     <constraint firstItem="nqb-sc-m6D" firstAttribute="trailing" secondItem="RmG-mA-8Ki" secondAttribute="trailing" id="epc-g7-Ein"/>
                     <constraint firstItem="RmG-mA-8Ki" firstAttribute="top" secondItem="HVk-pz-8dh" secondAttribute="top" constant="13" id="hnX-5J-uXA"/>
-                    <constraint firstAttribute="trailing" secondItem="RmG-mA-8Ki" secondAttribute="trailing" constant="20" symbolic="YES" id="mTu-02-tYX"/>
+                    <constraint firstAttribute="trailing" secondItem="0q9-nu-zmM" secondAttribute="trailing" constant="10" id="krb-uc-ZLW"/>
+                    <constraint firstItem="0q9-nu-zmM" firstAttribute="top" secondItem="RmG-mA-8Ki" secondAttribute="bottom" constant="5" id="pF4-9I-u0A"/>
+                    <constraint firstItem="0q9-nu-zmM" firstAttribute="leading" secondItem="9YS-Hc-Puu" secondAttribute="trailing" constant="10" id="wed-s2-lwM"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

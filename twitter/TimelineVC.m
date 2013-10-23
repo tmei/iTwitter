@@ -130,6 +130,15 @@
     [self.navigationController pushViewController:tweetVC animated:TRUE];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UIFont *font = [UIFont systemFontOfSize:24];
+    CGSize constraintSize = CGSizeMake(200, MAXFLOAT);
+    Tweet *tweet = [self.tweets objectAtIndex:indexPath.row];
+    CGSize labelSize = [tweet.text sizeWithFont:font constrainedToSize:constraintSize lineBreakMode:NSLineBreakByWordWrapping];
+    CGFloat height = labelSize.height + 40;
+    return height;
+}
+
 /*
 #pragma mark - Navigation
 
